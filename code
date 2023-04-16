@@ -1,0 +1,44 @@
+<!doctype html>
+<main id = "main">
+<html lang = "en">
+<head>
+<meta charset = "UTF-8">
+<meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+<title id = "Okita Sōji">Okita Sōji</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<h1 id = "title">Okita Sōji</h1>
+<p class = "headline"><i>1842/1844 - 1868</i></p>
+<div id = "img-div">
+<img src = "https://upload.wikimedia.org/wikipedia/commons/5/51/Okitasoji.jpg" id = "image">
+<div id = "img-caption"><i>A photo of a man that has been mistaken throughout history for Okita Sōji. No photos of Okita have actually been found</i></div>
+</div>
+<p id = "tribute-info">Captain of the first unit of the Shinsegumi:</p>
+<a href = "https://en.wikipedia.org/wiki/Okita_Sōji" target = "_blank" id = "tribute-link">More on Okita Sōji</a>
+<p>A REMARKABLE swordsman</p>
+<section class = "timeline">
+<ul>
+<li>1842 or 1844 - Born in Shirakawa Domain's Edo mansion
+<li>1851 or 1853- At the age of nine, Okita starts training with Kondo Shusuke (third master of the Tennen Rishin-ryū)
+<li>1860 or 1862 - Around the age of 18, mastered all the techniques of the Tennen Rishin-ryu school
+<li>1863 - Shinsengumi founded to protect Shogunate representatives in Kyoto
+<li>1863 - Okita Sōji becomes vice-commander's assistant of the Shinsengumi
+<li>1865 - Becomes captain of the first unit of the Shinsengumi
+<li>1868 - death during the Boshin war
+</section>
+<div>
+<p class = "quote">"Don't worry. You won't get hurt if you don't get hit."</p>
+</div>
+</main>
+</html>
+
+img {max-width: 100%; height: auto; margin: 0 auto; display: block}
+h1 {text-align: center; border: 2px; padding-bottom: 30px; background-color: #dfdfe2}
+div[id = "img-caption"] {margin: 10px auto; text-align: center}
+.headline {text-align: center; margin-top: -45px; margin-bottom: 20px}
+main {display: flex; justify-content: center; flex-direction: column}
+a {text-align: center}
+p {text-align: center; font-family: Georgia}
+ul > li {margin: 15px auto; text-align: center; padding-line-start: 0; width: 100%}
+ul {background-color: #dfdfe2; max-width: 70%; margin: 10px auto; padding-top: 10px; padding-bottom: 10px}
+.quote {max-width: 75%; padding: 5px; background-color: #dfdfe2; margin: 10px auto}
